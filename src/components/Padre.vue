@@ -3,14 +3,24 @@
   <section class="src-components-padre">
     <div class="jumbotron mt-3">
         <h1>Ingreso de Datos</h1>
-        <h4>Palabra: </h4>
+        <h4>Palabra Ingresada: </h4>
         <input type="text" v-model="palabra"><br>
         <br>
-        <h4>Palabra recibida:</h4> {{ palabra }}
+        
+        <Hijo :palabraRecibida="palabra.toLowerCase()"/>
         <br>
-        <h4>Palabra encriptada:</h4> {{ palabraEncriptada }}
-        <hr>
-        <Hijo :palabraRecibida="palabra" @palabraSeEncripto="mostrarEncriptada($event)" />
+    
+        <h4>Multiple choice:</h4>
+        1.- b
+        <br>
+        2.- b
+        <br>
+        3.- c
+        <br>
+        4.- b
+        <br>
+        5.- c
+        <br>
     </div>
   </section>
 

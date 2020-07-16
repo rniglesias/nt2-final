@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="jumbotron mt-3">
-      <h1>Parcial</h1>
+      <h1>Examen Final - Rodrigo Iglesias Curso 21D</h1>
       <Padre/>
     </div>
   </div>
